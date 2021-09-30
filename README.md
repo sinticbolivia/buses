@@ -3,7 +3,7 @@
 Clona el repositorio con el siguiente comando
 
 ```bash
-$ git clone https://github.com/aidachumacero/laravel.git
+$ git clone https://github.com/sinticbolivia/buses.git
 ```
 
 ```bash
