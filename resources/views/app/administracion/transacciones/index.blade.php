@@ -24,14 +24,14 @@
                         </tr>
                         </thead>
                         <tbody>
-                        @foreach($pagos as $p)
+                        @foreach($pagos as $p) {!! print_r($p) !!}
                         <tr>
                         	<td>{{ $p->identificador }}</td>
                         	<td>{{ $p->id_transaccion }}</td>
                         	<td>{{ $p->email_cliente }}</td>
                         	<td>{{ $p->fecha_registro_deuda }}</td>
                         	<td>{{ $p->fecha_pago }}</td>
-                        	<td>{{ $p->cliente_nombre }} {{ $p->cliente_apellidos }}</td>
+                        	<td>{{ $p->cliente_nombres }} {{ $p->cliente_apellidos }}</td>
                         	<td>{{ $p->monto_pagado }}</td>
                         </tr>
                         @endforeach

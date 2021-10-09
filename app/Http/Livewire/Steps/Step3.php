@@ -298,8 +298,8 @@ class Step3 extends Component
             'apellido_cliente' 		=> $this->customer['lastname'],
             'numero_documento' 		=> $this->customer['identification'],
             'tipo_factura' 			=> '0', //Servicios
-            //'emite_factura'			=> 1,
-            //'razon_social' 			=> '',
+            'emite_factura'			=> 1,
+        	'razon_social' 			=> sprintf("%s", $this->customer['lastname']),
             'moneda'				=> 'BOB',
             'lineas_detalle_deuda'	=> [
             	[
