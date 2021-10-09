@@ -24,7 +24,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        @foreach($pagos as $p) {!! print_r($p) !!}
+                        @foreach($pagos as $p)
                         <tr>
                         	<td>{{ $p->identificador }}</td>
                         	<td>{{ $p->id_transaccion }}</td>
